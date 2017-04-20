@@ -30,13 +30,15 @@ class LinkedList:
         new_node = Node(newdata)
         new_node.next = prevnode.next
         prevnode.next = new_node
-        
-    def insertAfter(self,prevnode,newdata):
-        if prevnode is None:
-            return
+    
+    def insertatEnd(self,newdata):
         new_node = Node(newdata)
-        new_node.next = prevnode.next
-        prevnode.next = new_node    
+        if self.head is None:
+            self.head = new_node
+        temp=self.head
+        while (temp.next):
+            temp = temp.next
+        temp.next =  new_node    
         
     def insertat(self,position,newdata):
         new_node = Node(newdata)
@@ -52,10 +54,8 @@ class LinkedList:
                 new_node.next = nextnode
             counter = counter+1
             temp = temp.next
-        while(temp):
-            print(temp.data)
-            temp=temp.next
-    
+
+
     # Code execution starts here
 if __name__=='__main__':
  
@@ -78,6 +78,8 @@ if __name__=='__main__':
     llist.insertAfter(llist.head, 8)
     llist.insertat(3, 100)
     llist.insertat(3, 101)
+    llist.insertatEnd(1011)
+    
     print 'Created linked list is:',
     llist.printList()
  
