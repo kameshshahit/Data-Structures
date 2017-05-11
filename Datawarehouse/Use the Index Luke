@@ -1,0 +1,23 @@
+Preface
+Anatomy of an Index
+The Where Clause
+The Equality Operator
+Functions
+Parameterized Queries
+Searching for Ranges
+Greater, Less and BETWEEN
+Indexing LIKE Filters
+Index Merge
+Partial Indexes
+NULL in the Oracle Database
+Obfuscated Conditions
+Performance and Scalability
+The Join Operation
+Clustering Data
+Sorting and Grouping
+Partial Results
+Modifying Data
+Execution Plans
+Myth Directory
+Example Schema
+Glossary
