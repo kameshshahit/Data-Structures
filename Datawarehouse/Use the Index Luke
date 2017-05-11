@@ -5,6 +5,6 @@
 [ ] Functions
 >Parameterized Queries
 >Searching for Ranges
-Greater, Less and BETWEEN
+#Greater, Less and BETWEEN
 Indexing LIKE Filters
 Index Merge
