@@ -3,8 +3,8 @@
 3.The Where Clause
 [ ] The Equality Operator
 [ ] Functions
-Parameterized Queries
-Searching for Ranges
+>Parameterized Queries
+>Searching for Ranges
 Greater, Less and BETWEEN
 Indexing LIKE Filters
 Index Merge
